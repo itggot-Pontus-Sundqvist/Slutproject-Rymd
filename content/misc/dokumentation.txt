@@ -1,0 +1,12 @@
+2017/04/25
+Jag började med att göra en skiss av min idé. Jag gjorde för alla tre olika enheter. Sedan testade jag runt med css-grid funktionen för att förstå hur den fungerar. Jag förstår nu hur den fungerar och kommer att använda den för att göra ett grid av artiklar på min sida. Nästa gång hoppas jag att få en enkel implementering av min skiss, utan några detaljer.
+
+2017/05/02
+Jag har nu implementerat något som liknar min skiss för datorn. Jag har börjat att lägga till detaljer men först borde jag göra en mer detaljerad design där jag fokuserar på småsakerna.
+Nästa gång: 
+Bättre skiss.
+Bättre artiklar.
+Tydlighet.
+
+2017/05/09
+Idag har jag gjort artiklarna finare.. Jag har lagt in lite riktiga bilder och fyllt på med text för att bättre visa hur sidan skulle se ut i verkligheten. Image sliden har jag också implementerat. Jag kan nu byta mellan tre olika bilder, åt höger och vänster. Titeln som visas på bilden ändras också. Det behövs möjligtvis en finare övergång för texten. Nästa gång borde jag jobba på navbaren, alternativt jobba på en ny sida: stora artiklar.
