@@ -29,7 +29,7 @@ function change_title(){
       name = "Wooow";
       break;
     case 3:
-      name = "Hmmmmmmmmmmm";
+      name = "Fäöårg";
       break;
   }
   document.getElementById("title").innerHTML = name
