@@ -10,3 +10,6 @@ Tydlighet.
 
 2017/05/09
 Idag har jag gjort artiklarna finare.. Jag har lagt in lite riktiga bilder och fyllt på med text för att bättre visa hur sidan skulle se ut i verkligheten. Image sliden har jag också implementerat. Jag kan nu byta mellan tre olika bilder, åt höger och vänster. Titeln som visas på bilden ändras också. Det behövs möjligtvis en finare övergång för texten. Nästa gång borde jag jobba på navbaren, alternativt jobba på en ny sida: stora artiklar.
+
+2017/05/16
+Idag har jag skapat den nya artikelsidan och optimiserat startsidan för mobila enheter. Jag har fortfarande lite jobb att göra med bildtiteln men det går iallafall att använda den nu. Nästa gång borde jag fixa det och jobba på navbaren... 
