@@ -7,7 +7,7 @@ function change_left(){
     slide = slide + 1
   }
   document.getElementById("slide").style.backgroundImage = "url('../img/space" + slide + ".jpg')";
-  setTimeout(function(){change_title()},100)
+  change_title()
 }
 
 function change_right(){
@@ -17,7 +17,7 @@ function change_right(){
     slide = slide - 1
   }
   document.getElementById("slide").style.backgroundImage = "url('../img/space" + slide + ".jpg')";
-  setTimeout(function(){change_title()},100)
+  change_title()
 }
 
 function change_title(){
