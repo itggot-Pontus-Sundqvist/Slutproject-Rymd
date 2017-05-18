@@ -78,9 +78,13 @@ header {
 }
 
 .summary_grid {
+  display: -ms-grid;
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+
 }
 
 .summary_box {
