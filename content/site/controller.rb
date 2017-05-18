@@ -1,8 +1,11 @@
 layout 'layout.html.erb'
 
 
-before 'article.html.erb' do
+before 'index.html.erb' do
   @articles = Dir.entries("../articles")
-  @articles.delete_at(0)
-  @articles.delete_at(0)
+  p @articles
+  @articles = @articles.slice!(2..11)
+  p @articles
+
+  @articles.sort! { |x,y| File.birthtime("../articles/#{y}") <=> File.birthtime("../articles/#{x}")}
 end
