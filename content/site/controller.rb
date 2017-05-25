@@ -2,6 +2,7 @@ layout 'layout.html.erb'
 
 before 'index.html.erb' do
   @articles = Dir.entries("../articles")
-  @articles = @articles.slice!(2..11)
-  @articles.sort! { |x,y| File.birthtime("../articles/#{y}") <=> File.birthtime("../articles/#{x}")}
+  @articles.delete(".")
+  @articles.delete("..")
+  @articles.sort! { |x,y| File.mtime("../articles/#{y}") <=> File.mtime("../articles/#{x}")}
 end
