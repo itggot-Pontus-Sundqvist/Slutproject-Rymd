@@ -13,3 +13,7 @@ Idag har jag gjort artiklarna finare.. Jag har lagt in lite riktiga bilder och f
 
 2017/05/16
 Idag har jag skapat den nya artikelsidan och optimiserat startsidan för mobila enheter. Jag har fortfarande lite jobb att göra med bildtiteln men det går iallafall att använda den nu. Nästa gång borde jag fixa det och jobba på navbaren... 
+
+2017/05/30
+Gjort artiklarna finare och länka ordentligt till dem i index och i image slidern. Jag fixade också så att sidorna ser bra ut i vissa sällsynta fall.
+Nästa gång ska jag börja generera html dokumenten för artiklarna. Om jag inte lyckas med det får jag skapa 8 separata, identiska .irb dokument.
