@@ -32,5 +32,6 @@ function change_title(){
       name = "Fäöårg";
       break;
   }
-  document.getElementById("title").innerHTML = name
+  document.getElementById("title").innerHTML = name;
+  document.getElementById("image_link").href = "article" + slide + ".html";
 }
