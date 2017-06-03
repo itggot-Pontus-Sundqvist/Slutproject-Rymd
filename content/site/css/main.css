@@ -380,10 +380,13 @@ header {
 }
 
 .icon_container {
+  height: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   position: absolute;
   right: 32px;
+  top: 0px;
 }
 
 .icon {
