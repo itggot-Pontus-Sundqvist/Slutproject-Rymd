@@ -23,15 +23,23 @@ function change_right(){
 function change_title(){
   switch (slide) {
     case 1:
-      name = "The Space";
+      name = "Math";
       break;
     case 2:
-      name = "Wooow";
+      name = "Wikipedia";
       break;
     case 3:
-      name = "Fäöårg";
+      name = "CSS";
       break;
   }
   document.getElementById("title").innerHTML = name;
   document.getElementById("image_link").href = "article" + slide + ".html";
+}
+
+function share_popup(){
+  alert("Share this on social media manually, thanks.")
+}
+
+function feedback_popup(){
+ prompt("What do you think of the website?","Hmmm");
 }
