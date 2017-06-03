@@ -99,6 +99,7 @@ header {
 .first_long_image {
   grid-row-end: span 2;
   background-image: url("../img/james_webb.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -106,6 +107,7 @@ header {
 .second_long_image {
   grid-row-end: span 2;
   background-image: url("../img/hubble.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -150,6 +152,7 @@ header {
   transition: background-image 0.4s;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-image: url('../img/space1.jpg');
 }
 
@@ -243,6 +246,7 @@ header {
 }
 
 .article_title {
+  text-align: center;
   font-size: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -280,4 +284,36 @@ header {
 .return_button:hover{
   background-color: #6b77d3;
   color: white;
+}
+
+.visual_article {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  min-height: 800px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #fbfbfb;
+  color: black;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+  border: solid #6b77d3 2px;
+}
+
+.visual_article_image {
+  border-right: solid #6b77d3 2px;
+  flex-basis: 0;
+  display: flex;
+  flex-grow: 6;
+  background-image: url("../img/jwt_large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.visual_article_text {
+  align-items: center;
+  display: flex;
+  width: 350px;
+  height: 100%;
+  flex-direction: column;
 }
