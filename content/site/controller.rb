@@ -1,6 +1,6 @@
 layout 'layout.html.erb'
 
-before 'index.html.erb' do
+before 'index.html.erb', 'article0.html.erb', 'article1.html.erb', 'article2.html.erb', 'article3.html.erb', 'article4.html.erb', 'article5.html.erb', 'article6.html.erb', 'article7.html.erb'  do
   @articles = Dir.entries("../articles")
   @articles.delete(".")
   @articles.delete("..")
